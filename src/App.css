@@ -1,13 +1,13 @@
+/* styles.css */
 .App{
-    width: 100vw;
-    height: 100vh;
-}
-body{
-    margin: 0;
+    margin-left: 20px;
     padding: 0;
 }
-.SideNavbar{
-    height: 100vh;
-    width: 250px;
-    background-color: aqua;
-}
+.sidebar-drawer-list {
+   height: 100vh;
+   width: 320px;
+    background-color: rgb(183, 166, 166)7c7;
+    padding: 20px;
+  }
+  
+  
