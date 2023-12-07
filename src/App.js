@@ -1,11 +1,13 @@
 import React from 'react';
 import SideNavbar from "./Components/SideNavbar";
 import NavBar from './Components/NavBar';
+import Main from './Components/Main';
 function App() {
   return (
     <div className="App">
      <SideNavbar/>
-     <NavBar></NavBar>
+     <NavBar/>
+     <Main/>
     </div>
   );
 }

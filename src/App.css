@@ -5,9 +5,18 @@
 }
 .sidebar-drawer-list {
    height: 100vh;
-   width: 320px;
+   width: 400px;
     background-color: rgb(183, 166, 166)7c7;
     padding: 20px;
   }
-  
-  
+  .main{
+    align-items: center;
+  }
+  .time-card{
+    margin-left: 450px;
+    margin-top: 50px;
+  }
+  .time-card h5{
+    margin-top: -10px;
+    color: rgb(122, 144, 145);
+  }
