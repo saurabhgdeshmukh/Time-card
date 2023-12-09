@@ -6,6 +6,7 @@ import SettingsIcon from '@mui/icons-material/Settings'
 import MenuIcon from '@mui/icons-material/Menu';
 import SendIcon from '@mui/icons-material/Send';
 import '../App.css'
+import { Style } from '@mui/icons-material';
 const SideNavbar = () => {
  const [drawerOpen, setDrawerOpen] = useState(false);
 
@@ -24,28 +25,32 @@ const SideNavbar = () => {
             <ListItemIcon>
               <HomeIcon />
             </ListItemIcon>
-            <ListItemText primary="Home" />
+              <h3>Home</h3>
+            <ListItemText primary=""/>
           </ListItem>
 
           <ListItem button>
             <ListItemIcon>
               <AddBoxIcon />
             </ListItemIcon>
-            <ListItemText primary="" />
+            <h3>Category</h3>
+            <ListItemText  />
           </ListItem>
           
           <ListItem button>
             <ListItemIcon>
               <SendIcon />
             </ListItemIcon>
-            <ListItemText primary="" />
+            <h3>Message</h3>
+            <ListItemText />
           </ListItem>
 
           <ListItem button>
             <ListItemIcon>
               <SettingsIcon />
             </ListItemIcon>
-            <ListItemText primary="" />
+            <h3>Settings</h3>
+            <ListItemText  />
           </ListItem>
         </List>
       </Drawer>

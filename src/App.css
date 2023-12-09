@@ -6,8 +6,14 @@
 .sidebar-drawer-list {
    height: 100vh;
    width: 400px;
-    background-color: rgb(183, 166, 166)7c7;
+    background-color: rgb(252, 252, 252);
+    color: rgb(15, 14, 14);
     padding: 20px;
+   
+  }
+  .ICON{
+    color: black;
+    margin-top: 150px;
   }
   .main{
     align-items: center;
@@ -19,4 +25,35 @@
   .time-card h5{
     margin-top: -10px;
     color: rgb(122, 144, 145);
+  }
+  .timecard-button{
+    margin-left: 1200px;
+    width: 200px;
+    border-radius: 100px;
+   align-items: center;
+    display: flex;
+    background-color: rgb(48, 48, 253);
+    color: aliceblue;
+    border-width: 2px;
+  }
+  .timecard-button h4{
+    margin-left: 15px;
+  }
+  .filter-time{
+    display: flex;
+  }
+  .filters-button{
+    margin-left: 50px;
+    margin-top: 9px;
+    width: 120px;
+    height: 40px;
+    border-radius: 7px;
+   align-items: center;
+    display: flex;
+    background-color: rgb(255, 230, 5);
+    border-width: 1px;
+    
+  }
+  .filters-button h4{
+    margin-left: 20px;
   }

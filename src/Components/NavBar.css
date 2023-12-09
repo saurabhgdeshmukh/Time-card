@@ -47,6 +47,7 @@ body {
     background-color: rgb(255, 255, 255);
     color: rgb(73, 99, 99);
     border-color: rgb(43, 41, 41);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
   }
   .chatAlt-icon{
     margin-top: 5px;
@@ -58,6 +59,7 @@ body {
     background-color: rgb(255, 255, 255);
     color: rgb(73, 99, 99);
     border-color: rgb(43, 41, 41);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
   }
   .chat-icon{
     margin-top: 5px;
@@ -69,14 +71,37 @@ body {
     background-color: rgb(255, 254, 254);
     color: rgb(249, 255, 255);
     border-color: rgb(43, 41, 41);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
   }
   .notification-icon{
     margin-top: 5px;
     margin-bottom: 5px;
     margin-left: 12px;
     border-radius: 50px;
-    box-shadow: 1px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     
     background-color: rgb(255, 255, 255);
  
   }
+  .profile{
+    display: flex;
+    width: 180px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 12px;
+    border-radius: 50px;
+    box-shadow: 5px;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    height: 55px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+ .profile-info{
+  margin-left: 20px;
+  margin-top: 0px;
+
+ }
+ .profile-info h5{
+ margin-top: -18px;
+ color: gray;
+ }
