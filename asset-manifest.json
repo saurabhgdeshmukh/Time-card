@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Time-card/static/css/main.e37aad3d.css",
+    "main.js": "/Time-card/static/js/main.28901013.js",
+    "static/js/787.d4aba7ab.chunk.js": "/Time-card/static/js/787.d4aba7ab.chunk.js",
+    "index.html": "/Time-card/index.html",
+    "main.e37aad3d.css.map": "/Time-card/static/css/main.e37aad3d.css.map",
+    "main.28901013.js.map": "/Time-card/static/js/main.28901013.js.map",
+    "787.d4aba7ab.chunk.js.map": "/Time-card/static/js/787.d4aba7ab.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e37aad3d.css",
+    "static/js/main.28901013.js"
+  ]
+}
