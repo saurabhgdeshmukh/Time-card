@@ -6,7 +6,6 @@ import SettingsIcon from '@mui/icons-material/Settings'
 import MenuIcon from '@mui/icons-material/Menu';
 import SendIcon from '@mui/icons-material/Send';
 import '../App.css'
-import { Style } from '@mui/icons-material';
 const SideNavbar = () => {
  const [drawerOpen, setDrawerOpen] = useState(false);
 
